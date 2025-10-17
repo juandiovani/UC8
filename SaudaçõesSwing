@@ -1,0 +1,16 @@
+// Importa a biblioteca Swing que utilizamos para const interfaces gráficas
+import javax.swing.JOptionPane;
+public class SaudacaoSwing {
+    public static void  main(String[] args){
+        // Exibe uma pequena mensagem na janela pedindo o nome do usuario
+        String nome = JOptionPane.showInputDialog("Qual é o icopetente que derrubou café do meu video game?");
+        // Mostrar a janela
+        JOptionPane.showInputDialog(
+                null,
+            "Olá " + nome + " ! Icopentente mesmo!,",
+            "Boas vindas",
+                JOptionPane.INFORMATION_MESSAGE
+
+        );
+    }
+}
